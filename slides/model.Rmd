@@ -6,7 +6,7 @@ institute: "Universitat de València-Estudi General"
 date: "`r Sys.Date()`"
 output:
   xaringan::moon_reader:
-    css: ["styles.css", "styles-fonts.css"]
+    css: ["https://github.com/pauinsanchez/xano-ringan/blob/master/css/styles.css", "https://github.com/pauinsanchez/xano-ringan/blob/master/css/styles-fonts.css"]
     lib_dir: libs
     nature:
       highlightStyle: github
