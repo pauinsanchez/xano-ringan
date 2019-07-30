@@ -1,0 +1,163 @@
+---
+title: "xanoringan Presentation"
+subtitle: "A Universitat de València xaringan presentation template"
+author: "Your name here"
+institute: "Universitat de València-Estudi General"
+date: "`r Sys.Date()`"
+output:
+  xaringan::moon_reader:
+    css: ["styles.css", "styles-fonts.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+---
+
+class: inverse, center, middle
+
+# First steps
+
+---
+
+# First steps
+
+In order to use this template, you must first install the development version of the `xaringan` package in 
+[RStudio](https://www.rstudio.com/products/rstudio/)
+
+```{r eval=FALSE, tidy=FALSE}
+devtools::install_github("yihui/xaringan")
+```
+
+As this template is not included as part of the package, you'll need to install it manually. 
+
+- Once you have downloaded the package, set a working directory and copy there the files in the xano-ringan repo in Github. 
+
+- Open `model.Rmd` and click the `Knit` button to compile. In the Settings button next to `Knit` you may select if you 
+want to see the result of the compilation in a new window or in the RStudio Viewer.
+
+- Voilà!
+
+---
+
+class: inverse, center, middle
+
+# 2. What is cool about xaringan?
+
+---
+
+# Basic usage
+
+## Ordered lists
+1. One
+2. Two
+3. Three
+4. Four
+
+## Unordered lists
+- One
+- Two
+ - Two-one
+ - Two-two
+- Three 
+- Four
+
+---
+
+# Basic usage
+
+## Lists with pauses
+- **First** important thing I want people to focus on before I proceed
+
+--
+
+- **Second** important thing I want people to focus on before I proceed
+
+--
+
+- **Third** important thing I want people to focus on before I proceed
+
+--
+
+- **Colophon**
+
+---
+
+# Basic usage
+
+The default theme comes with a useful environment for comparisons:
+
+.pull-left[
+### Things on the left go here:
+1. Start with a boilerplate HTML file
+
+2. Plain Markdown
+
+3. Write JavaScript to autoplay slides
+
+4. Manually configure MathJax
+
+5. Highlight code with
+]
+
+.pull-right[
+### Things on the right go here:
+- Start with an R Markdown document
+
+- R Markdown (can embed R/other code chunks)
+
+- Provide an option `autoplay`
+
+- MathJax just works
+
+- Highlight code with `{{}}`
+]
+
+---
+
+# Math expressions
+
+Including math expressions can be done following the LaTeX grammar. Something within simple dollar signs
+renders in-line equations, i.e. $e^{\pi i}+1=0$. Something within double dollar signs renders equations 
+in a new line: 
+
+$$\phi=\frac{1+\sqrt{5}}{2}$$
+
+Of course, formulas can be included as code as well:
+
+```
+$$\phi=\frac{1+\sqrt{5}}{2}$$
+```
+
+Limitations:
+
+1. The source code of a LaTeX math expression must be in one line, unless it is inside a pair of double dollar signs, in which case the starting `$$` must appear in the very beginning of a line, followed immediately by a non-space character, and the ending `$$` must be at the end of a line, led by a non-space character;
+
+1. There should not be spaces after the opening `$` or before the closing `$`.
+
+1. Math does not work on the title slide (see [#61](https://github.com/yihui/xaringan/issues/61) for a workaround).
+
+---
+
+# R Code
+
+```{r comment='#'}
+# a boring regression
+fit = lm(dist ~ 1 + speed, data = cars)
+coef(summary(fit))
+dojutsu = c('地爆天星', '天照', '加具土命', '神威', '須佐能乎', '無限月読')
+grep('天', dojutsu, value = TRUE)
+```
+
+---
+
+class: center, middle
+
+# Thanks!
+
+This is a good place to put your name and contact details.
+
+**Pau Insa Sánchez** <br>
+[pau.insa@gmail.com](mailto:pau.insa@gmail.com) <br>
+[twitter.com/pauinsanchez](http://twitter.com/pauinsanchez/) <br>
+[github.com/pauinsanchez](http://github.com/pauinsanchez/)
