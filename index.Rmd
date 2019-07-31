@@ -83,6 +83,16 @@ class: inverse, center, middle
 
 ---
 
+# Block quotes
+
+<blockquote-uv>
+Hola holita vecinito
+</blockquote-uv>
+
+<img src="https://media.giphy.com/media/xT5LMTeQ1I7haUxfwc/giphy.gif" alt="Flanders Gif" class="center">
+
+--- 
+
 # Basic usage
 
 The default theme comes with a useful environment for comparisons:
