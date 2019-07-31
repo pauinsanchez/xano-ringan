@@ -96,66 +96,81 @@ th, td { padding: 5px; }
 
 /* -------- title slide -------- */
 .title-slide {
-    background-image: url(https://www.uv.es/fatwireed/userfiles/image/MIVIUV-21.png);
-    background-position: 90% 15%;
-    background-size: 200px ;
-    background-color: white;
+  background-image: url(https://www.uv.es/fatwireed/userfiles/image/MIVIUV-21.png);
+  background-position: 90% 15%;
+  background-size: 200px ;
+  background-color: white;
 }
 
 .title-slide h1 {
-    color: rgb(0, 46, 82);
-    padding-top: 250px;
-    font-weight: normal;
-    font-size: 50px;
-    line-height: 0.05;
-    text-align: left;
-    text-shadow: none;
-    padding-bottom: 18px;
-    margin-bottom: 18px;
+  color: rgb(0, 46, 82);
+  padding-top: 250px;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 0.05;
+  text-align: left;
+  text-shadow: none;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
 }
 
 .title-slide h2 {
-    color: rgb(54, 79, 116);
-    padding-top: 0px;
-    font-weight: normal;
-    font-size: 40px;
-    line-height: 0.05;
-    text-align: left;
-    text-shadow: none;
-    padding-bottom: 18px;
-    margin-bottom: 18px;
+  color: rgb(54, 79, 116);
+  padding-top: 0px;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 0.05;
+  text-align: left;
+  text-shadow: none;
+  padding-bottom: 18px;
+  margin-bottom: 18px;
 }
 
 .title-slide h3 {
-    color: rgb(106, 122, 155);
-    padding-top: 0px;
-    font-weight: normal;
-    font-size: 35px;
-    line-height: 0.05;
-    text-align: left;
-    text-shadow: none;
-    padding-bottom: 0px;
-    margin-bottom: 0px;
+  color: rgb(106, 122, 155);
+  padding-top: 0px;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 0.05;
+  text-align: left;
+  text-shadow: none;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 /* remove slide count in first slide */
 .title-slide .remark-slide-number {
-    display: none;
-    text-shadow: none;
+  display: none;
+  text-shadow: none;
 }
 
 /* -------- global adjustments -------- */
 
 /* headers colors */
 h1 {
-    color: rgb(0, 46, 82);
+  color: rgb(0, 46, 82);
 }
 
 h2 {
-    color: rgb(54, 79, 116);
+  color: rgb(54, 79, 116);
 }
 
 h3 {
-    color: rgb(106, 122, 155);
+  color: rgb(106, 122, 155);
 }
 
+strong {
+  color: rgb(35, 78, 131);
+}
+
+blockquote-uv {
+  display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 40px;
+  margin-right: 40px;
+  border-left: solid 10px rgb(35, 78, 131);
+  background-color: rgb(225, 225, 205);
+  padding: 1em;
+  color: #fff;
+}
