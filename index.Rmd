@@ -91,7 +91,7 @@ Hola holita vecinito
 
 <img src="https://media.giphy.com/media/xT5LMTeQ1I7haUxfwc/giphy.gif" alt="Flanders Gif" class="center">
 
---- 
+---
 
 # Basic usage
 
