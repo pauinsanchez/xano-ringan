@@ -91,6 +91,18 @@ This is something important worth showing separately!
 
 ---
 
+# *Facultats* colors
+
+The theme includes styles for each *Facultad* official color. Thus, if you are talking about a particular school you can use their own color:
+
+- .magister[Facultat de Magisteri]
+
+- .etse[Escola Tècnica Superior d'Enginyeria]
+
+- .dret[Facultat de Dret]
+
+---
+
 # Basic usage
 
 The default theme comes with a useful environment for comparisons:
