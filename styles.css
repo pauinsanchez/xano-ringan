@@ -161,10 +161,105 @@ h3 {
   color: rgb(106, 122, 155);
 }
 
+/* what color bold word should be */
+
 strong {
   color: rgb(0, 46, 82);
 }
 
+/* ----- defining new different colors----- */
+
+/* colors recurs corporatiu */
+.rec_uveg_1 {
+  color: rgb(35, 78, 131);
+}
+
+.rec_uveg_2 {
+  color: rgb(104, 161, 213);
+}
+
+.rec_uveg_3 {
+  color: rgb(66, 109, 167);
+}
+
+.rec_uveg_4 {
+  color: rgb(0, 130, 197);
+}
+
+/* colors centres */
+.fisio {
+  color: rgb(76, 175, 170);
+}
+
+.inferm {
+  color: rgb(225, 211, 0);
+}
+
+.fcafe {
+  color: rgb(154, 189, 127);
+}
+
+.filtradcom {
+  color: rgb(168, 200, 233);
+}
+
+.filoeduc {
+  color: rgb(168, 200, 233);
+}
+
+.geohist {
+  color: rgb(168, 200, 233);
+}
+
+.medodont {
+  color: rgb(225, 211, 0);
+}
+
+.psico {
+  color: rgb(205, 102, 204);
+}
+
+.etse {
+  color: rgb(120, 75, 0);
+}
+
+.bio {
+  color: rgb(33, 29, 85);
+}
+
+.farma {
+  color: rgb(127, 19, 153);
+}
+
+.fisica {
+  color: rgb(33, 29, 85);
+}
+
+.mates {
+  color: rgb(33, 29, 85);
+}
+
+.quimica {
+  color: rgb(33, 29, 85);
+}
+
+.socials {
+  color: rgb(30, 80, 28);
+}
+
+.dret {
+  color: rgb(215, 0, 0);
+}
+
+.eco {
+  color: rgb(238, 127, 0);
+}
+
+.magister {
+  color: rgb(168, 200, 233);
+}
+
+/* defining a custom block quote */
 blockquote-uv {
   display: block;
   margin-top: 1em;
