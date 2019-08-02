@@ -40,27 +40,32 @@ a, a > code {
   height: 92%;
   float: left;
 }
+
 .left-column h2:last-of-type, .left-column h3:last-child {
   color: #000;
 }
+
 .right-column {
   width: 75%;
   float: right;
   padding-top: 1em;
 }
+
 .pull-left {
   float: left;
   width: 47%;
 }
+
 .pull-right {
   float: right;
   width: 47%;
 }
+
 .pull-right ~ * {
   clear: both;
 }
 
-/* several types of objects */
+/* config of several types of objects */
 img, video, iframe {
   margin-left: auto;
   margin-right: auto;
