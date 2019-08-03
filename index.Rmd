@@ -14,7 +14,7 @@ output:
       countIncrementalSlides: false
 ---
 
-class: inverse, center, middle
+class: sectiondiv-blue, center, middle
 
 # First steps
 
@@ -40,7 +40,7 @@ want to see the result of the compilation in a new window or in the RStudio View
 
 ---
 
-class: inverse, center, middle
+class: sectiondiv-blue, center, middle
 
 # 2. What is cool about xaringan?
 
@@ -101,6 +101,8 @@ The theme includes styles for each *Facultad* official color. Thus, if you are t
 
 - .dret[Facultat de Dret]
 
+- .eco[Facultat d'Economia]
+
 ---
 
 # Basic usage
@@ -159,15 +161,21 @@ Limitations:
 
 ---
 
-# R Code
+# Example of an R chunk
 
 ```{r comment='#'}
 # a boring regression
 fit = lm(dist ~ 1 + speed, data = cars)
 coef(summary(fit))
-dojutsu = c('地爆天星', '天照', '加具土命', '神威', '須佐能乎', '無限月読')
-grep('天', dojutsu, value = TRUE)
 ```
+
+---
+
+class: center, middle
+
+# Centered slides
+
+You can make the slides with centered content just by changing the style.
 
 ---
 
