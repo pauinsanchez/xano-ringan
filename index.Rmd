@@ -1,6 +1,10 @@
 ---
 title: "xano-ringan Presentation"
+<<<<<<< HEAD
 subtitle: "A Universitat de València xaringan presentation template"
+=======
+subtitle: "A Universitat de València `xaringan` presentation template"
+>>>>>>> 18a262df08ad96ce95c93e9995f9f4235d377b1a
 author: "Your name here"
 institute: "Universitat de València-Estudi General"
 date: "`r Sys.Date()`"
@@ -42,7 +46,7 @@ want to see the result of the compilation in a new window or in the RStudio View
 
 class: sectiondiv-blue, center, middle
 
-# 2. What is cool about xaringan?
+# 2. What is cool about `xaringan`?
 
 ---
 
