@@ -1,10 +1,6 @@
 ---
 title: "xano-ringan Presentation"
-<<<<<<< HEAD
 subtitle: "A Universitat de València xaringan presentation template"
-=======
-subtitle: "A Universitat de València `xaringan` presentation template"
->>>>>>> 18a262df08ad96ce95c93e9995f9f4235d377b1a
 author: "Your name here"
 institute: "Universitat de València-Estudi General"
 date: "`r Sys.Date()`"
@@ -190,6 +186,6 @@ class: center, middle
 This is a good place to put your name and contact details.
 
 **Pau Insa Sánchez** <br>
-[pau.insa@gmail.com](mailto:pau.insa@gmail.com) <br>
+[pau.insa@uv.es](mailto:pau.insa@uv.es) <br>
 [twitter.com/pauinsanchez](http://twitter.com/pauinsanchez/) <br>
 [github.com/pauinsanchez](http://github.com/pauinsanchez/)
