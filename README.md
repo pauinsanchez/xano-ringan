@@ -1,8 +1,19 @@
 # xano-ringan
-A Universitat de València `xaringan` theme for HTML presentations.
 
-## Example
-The sample presentation can be accessed [here](http://pauinsanchez.com/xano-ringan)
+Una plantilla de diapositivas tipo `xaringan` para la Universitat de València. Si no sabes lo que es `xaringan`, echa un vistazo [aquí](https://bookdown.org/yihui/rmarkdown/xaringan.html).
 
-## Usage
-[under construction]
+Para crear esta plantilla se ha seguido la *Identitat Visual Institucional de la Universitat de València* (IVIUV) que puede consultarse [aquí](https://www.uv.es/unitat-web-marqueting/ca/identitat-visual/identitat-visual-institucional-iviuv.html). Ello incluye elementos como el [emblema](https://www.uv.es/unitat-web-marqueting/ca/identitat-visual/elements-identitat/emblema.html) y los colores según la [paleta de colores corporativos](https://www.uv.es/corporate/marca/cromatica/identitat_cromatica.pdf).
+
+Esta es una plantilla no oficial.
+
+## Ejemplo
+
+La presentación de ejemplo, incluyendo su apariencia y alguna de sus funcionalidades añadidas puede verse [here](https://pauinsanchez.github.io/xano-ringan/)
+
+## Uso
+
+Si no tienes instalado el paquete `xaringan`, puedes hacerlo directamente desde CRAN:
+
+```{r}
+install.packages("xaringan")
+```
