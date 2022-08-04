@@ -6,8 +6,6 @@ Para crear esta plantilla se ha seguido la *Identitat Visual Institucional de la
 
 También tiene en cuenta el [isotipo](https://www.uv.es/unitat-web-marqueting/ca/identitat-visual/elements-identitat/isotip/isotip-corporatiu.html) corporativo, Xano, la combinación de cuyo nombre con el de `xaringan` da lugar al nombre de la plantilla.
 
-![](figs/xano.jpeg){style="display: block; margin-left: auto; margin-right: auto;" width="100"}
-
 Esta es una plantilla no oficial.
 
 ## Ejemplo
