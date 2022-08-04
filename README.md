@@ -8,7 +8,7 @@ Esta es una plantilla no oficial.
 
 ## Ejemplo
 
-La presentación de ejemplo, incluyendo su apariencia y alguna de sus funcionalidades añadidas puede verse [here](https://pauinsanchez.github.io/xano-ringan/)
+La presentación de ejemplo, incluyendo su apariencia y alguna de sus funcionalidades añadidas puede verse [aquí](https://pauinsanchez.github.io/xano-ringan/).
 
 ## Uso
 
@@ -17,3 +17,5 @@ Si no tienes instalado el paquete `xaringan`, puedes hacerlo directamente desde 
 ```{r}
 install.packages("xaringan")
 ```
+
+Una vez instalado, descarga el directorio que compone este repositorio y edita la presentación directamente en el archivo `index.Rmd`. Si nunca has utilizado `xaringan` o nada basado en [remark](https://remarkjs.com), te recomiendo [este](https://bookdown.org/yihui/rmarkdown/xaringan.html) capítulo del libro de R Markdown.
