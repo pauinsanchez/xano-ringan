@@ -4,6 +4,10 @@ Una plantilla de diapositivas tipo `xaringan` para la Universitat de València. 
 
 Para crear esta plantilla se ha seguido la *Identitat Visual Institucional de la Universitat de València* (IVIUV) que puede consultarse [aquí](https://www.uv.es/unitat-web-marqueting/ca/identitat-visual/identitat-visual-institucional-iviuv.html). Ello incluye elementos como el [emblema](https://www.uv.es/unitat-web-marqueting/ca/identitat-visual/elements-identitat/emblema.html) y los colores según la [paleta de colores corporativos](https://www.uv.es/corporate/marca/cromatica/identitat_cromatica.pdf).
 
+También tiene en cuenta el [isotipo](https://www.uv.es/unitat-web-marqueting/ca/identitat-visual/elements-identitat/isotip/isotip-corporatiu.html) corporativo, Xano, la combinación de cuyo nombre con el de `xaringan` da lugar al nombre de la plantilla.
+
+![](figs/xano.jpeg){style="display: block; margin-left: auto; margin-right: auto;" width="100"}
+
 Esta es una plantilla no oficial.
 
 ## Ejemplo
